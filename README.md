@@ -9,4 +9,5 @@ curl -sSO https://raw.githubusercontent.com/zhucaidan/btpanel-v7.7.0/main/instal
 7.7.0版本去除登录框的命令：
 
 sed -i "s|if (bind_user == 'True') {|if (bind_user == 'REMOVED') {|g" /www/server/panel/BTPanel/static/js/index.js
+
 rm -rf /www/server/panel/data/bind.pl
